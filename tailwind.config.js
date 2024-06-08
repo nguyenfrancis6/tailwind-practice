@@ -3,6 +3,10 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    flowbite.content(),
+  ],
+  plugins: [
+    flowbite.plugin(),
   ],
   theme: {
     extend: {
@@ -11,6 +15,7 @@ export default {
         "neutralDGrey":"#4D4D4D",
         "brandPrimary":"#4CAF4F",
         "neutralGrey":"#717171",
+        'gray900':"#18191F"
       }
     },
   },
